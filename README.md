@@ -118,17 +118,18 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 ###### Martes 24, Enero 2023
 
 - [x] Estructurar Roadmap en el Readme
-- [x] Estructurar el html (navbar, header, 5 sections: partners, recent-projects, client-reviews, services, question-form y el footer)
+- [x] Estructurar el html (navbar, header, main, 5 sections: partners, recent-projects, client-reviews, services, question-form y el footer)
 - [x] Crear html del archivo index.html
 - [x] Crear html del archivo project.html
 - [x] Crear html del archivo contact-us.html
 - [x] Añadir variables de estilos en la sección root del archvio Style.CSS
-- [ ] Crear el CSS para index.html
+- [x] Crear el CSS para index.html (navbar, header, main, partners, recent-projets y client-reviews)
 
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
 
+- [ ] Terminar el CSS de index.html
 - [ ] Crear CSS del archivo project.html
 - [ ] Crear CSS del archivo contact-us.html
 
