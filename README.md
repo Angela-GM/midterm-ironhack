@@ -101,33 +101,49 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Backlog
 
 - [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
-
-#### Day One
+- [x] Ej - Crear section "projects" en html
 
 #### Day One
 
 ###### Lunes 23, Enero 2023
 
-- [ ] Tarea no completada
-- [x] Tarea Completada
-- [ ] Ej - Crear section "projects" en html
-- [x] Ej - Crear section "projects" en html
+- [x] Crear repo en GitHub
+- [x] Conectar la carpeta local con GitHub
+- [x] Revisar el archivo Figma
+- [x] Conectar el proyecto con Vercel
+- [x] Modificar el Readme: añadir enlace de Vercel
 
 #### Day Two
 
 ###### Martes 24, Enero 2023
 
+- [x] Estructurar Roadmap en el Readme
+- [ ] Estructurar el html (navbar, header, 5 sections: partners, recent-projects, client-reviews, services, question-form y el footer)
+- [ ] Crear html del archivo index.html
+- [ ] Crear html del archivo project.html
+- [ ] Crear html del archivo contact-us.html
+
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
+
+- [ ] Crear CSS del archivo index.html
+- [ ] Crear CSS del archivo project.html
+- [ ] Crear CSS del archivo contact-us.html
 
 #### Day Four
 
 ###### Jueves 26, Enero 2023
 
+- [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
+
 #### Day Five
 
 ###### Viernes 27, Enero 2023
+
+- [ ] Revisión final del proyecto
+- [ ] Crear presentación
+- [ ] Presentar el proyecto
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
