@@ -31,7 +31,7 @@
 
       <!-- Parte 2 del header -->
       <main id="hero-section-header">
-        <div id="container-text-hero" >
+        <div id="container-text-hero">
           <h1>Empower Your Business With Stunning Design!</h1>
           <p>
             Circle is a digital design and development studio. We design and
@@ -40,17 +40,21 @@
           <div id="hero-section-header-btns">
             <p>See our work</p>
             <div class="btn-blue">Get in touch</div>
-            
           </div>
-          
         </div>
 
-          <div id="container-img-hero">            
-            <img id="card1" src="/resources/images/hero-section/card-1.png" alt="card1" />
-            <img id="card2" src="/resources/images/hero-section/card-2.png" alt="card2" />            
-          </div>
-
-        
+        <div id="container-img-hero">
+          <img
+            id="card1"
+            src="/resources/images/hero-section/card-1.png"
+            alt="card1"
+          />
+          <img
+            id="card2"
+            src="/resources/images/hero-section/card-2.png"
+            alt="card2"
+          />
+        </div>
       </main>
     </header>
 
@@ -87,9 +91,11 @@
             src="/resources/images/projects-section/1.jpg"
             alt="imagen del proyecto 1"
           />
-          <h4>Simplify</h4>
-          <p>UI Design & App Development</p>
-          <p>Learn more</p>
+          <div>
+            <h4>Simplify</h4>
+            <p>UI Design & App Development</p>
+            <p>Learn more</p>
+          </div>
         </article>
         <article>
           <img
@@ -109,50 +115,58 @@
           <p>User Experience Design</p>
           <p>Learn more</p>
         </article>
-
       </div>
-      
     </section>
 
     <!-- SECTION 3 -->
     <!-- Client reviews -->
-    <section id="client-reviews">
-      <!-- Fondo azul oscuro -->
-      <div id="back-images">
-        <!-- Lo 4 emojis en deben posicionarse en cada punta -->
-
-        <img
-          src="/resources/images/testimonial-section/memoji-1.png"
-          alt="emoji 1"
-        /><img
-          src="/resources/images/testimonial-section/memoji-2.png"
-          alt="emoji 1"
-        /><img
-          src="/resources/images/testimonial-section/memoji-3.png"
-          alt="emoji 3"
-        /><img
-          src="/resources/images/testimonial-section/memoji-4.png"
-          alt="emoji 4"
-        />
-      </div>
-
-      <div>
+    <section id="container-reviews">
+      <div id="container-reviews-text">
         <h3>Hear What Our Clients Have to Say</h3>
         <p>
           “Circle helped us through every stage of our startup. We really
           enjoyed working with you.”
         </p>
+
         <!-- Datos del perfil -->
-        <div>
-          <!-- Circulo para la foto de perfil -->
-          <!-- <img src="/resources/images/testimonial-section/orbit.png" alt="orbit"> -->
-          <img
-            src="/resources/images/testimonial-section/profile.png"
-            alt="foto de perfil"
-          />
-          <p>Kristin Watson</p>
-          <p>Booking.com</p>
+        <div id="client">
+
+          <div id="client-image">
+            <img
+              src="/resources/images/testimonial-section/profile.png"
+              alt="image perfil"
+            />
+          </div>
+          <div id="client-info">
+            <p>Kristin Watson</p>
+            <p>Booking.com</p>
+          </div>
         </div>
+      </div>
+      <!-- Lo 4 emojis en deben posicionarse en cada punta -->
+      <div class="emoji top-left">
+        <img
+          src="/resources/images/testimonial-section/memoji-1.png"
+          alt="emoji1"
+        />
+      </div>
+      <div class="emoji top-right">
+        <img
+          src="/resources/images/testimonial-section/memoji-2.png"
+          alt="emoji2"
+        />
+      </div>
+      <div class="emoji bottom-left">
+        <img
+          src="/resources/images/testimonial-section/memoji-3.png"
+          alt="emoji3"
+        />
+      </div>
+      <div class="emoji bottom-right">
+        <img
+          src="/resources/images/testimonial-section/memoji-4.png"
+          alt="emoji4"
+        />
       </div>
     </section>
 

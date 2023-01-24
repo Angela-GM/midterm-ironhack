@@ -179,10 +179,132 @@ header {
 /* ------------------------------ Recent projects ------------------------------ */
 
 #recent-projects article img {
-  width: 600px;
+  width: 100%;
+  height: 90%;
+}
+
+#recent-projects article{
+  width: 30%;
+  background-color: white;
+  margin-bottom: 150px;
+
+}
+
+
+
+
+#recent-projects {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#articles-projects {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+
+#recent-projects>h3 {
+  margin: 70px 0;;
 }
 
 /* ------------------------------ Client reviews ------------------------------ */
+
+#container-reviews {
+  background-color: var(--neutral-dark);
+  background-image: url(/resources/images/testimonial-section/orbit.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -5;
+  height: 650px;
+}
+
+.emoji {
+  position: absolute;
+}
+.emoji img {
+  width: 50%;
+}
+.top-left {
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: auto;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  left: auto;
+  bottom: auto;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+}
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  top: auto;
+  left: auto;
+  
+}
+
+#container-reviews-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+#container-reviews-text>h3{
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+#container-reviews-text>p {
+  color: var(--secondary);
+}
+
+#client {
+
+  display: flex;
+  justify-content:center;
+
+}
+
+#client-image img{
+  width: 50px%;
+  height: 50px;
+  border-radius: 50%;
+}
+#client-info p {
+  color: white;
+  margin-left: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------------------------------ Services ------------------------------ */
 
