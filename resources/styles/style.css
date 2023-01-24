@@ -3,30 +3,31 @@
 :root {
   /* Colors */
   --primary: #072ac8;
-  --secondary: #FFC600;
-  --accent: #43D2FF;
-  --primary-hover:#A2D6F9;
-  --primary-tapped: #D1EDFF;
-  --neutral-dark: #292E47;
-  --neutral-medium: #6B708D;
-  --neutral-light: #F4F6FC;
-  --neutral-light-blue: #ECF7FF;
-
-
-
+  --secondary: #ffc600;
+  --accent: #43d2ff;
+  --primary-hover: #a2d6f9;
+  --primary-tapped: #d1edff;
+  --neutral-dark: #292e47;
+  --neutral-medium: #6b708d;
+  --neutral-light: #f4f6fc;
+  --neutral-light-blue: #ecf7ff;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+  /* Outline */
+  /* outline: 1px solid #0000ff; */
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: var(--neutral-dark);
+  width: 90%;
+  margin: auto;
+  background-color: #f2f4fc;
 }
 
 h1 {
@@ -35,7 +36,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.12rem;
+  font-size: 3.1rem;
   font-weight: bold;
 }
 
@@ -53,8 +54,10 @@ h5 {
   font-size: 1.5rem;
   font-weight: 500;
 }
-
-
+p {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
 
 
 
@@ -76,19 +79,110 @@ h5 {
 
 /* ------------------------------ Header ------------------------------ */
 
-/* Your CSS code goes here */
+header {
+  display: flex;
+  flex-direction: column;
+}
+#logo-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+
+#logo-navbar nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  color: var(--neutral-medium);
+  font-weight: 500;
+}
+
+#hero-section-header {
+  display: flex;
+  /* flex-wrap: nowrap; */
+}
+
+#hero-section-header h1 {
+  margin: 30px 0px;
+}
+
+#container-text-hero {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#hero-section-header div>p {
+  color: var(--neutral-medium);
+  line-height: 1.8rem;
+
+}
+
+#hero-section-header-btns {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 35px 0;
+
+}
+
+
+
+/* Imagen con las tarjetas */
+#container-img-hero {
+  background-image: url("/resources/images/hero-section/hero-image.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 40vw;
+  position: relative;
+  width: 50vw;
+  height: 50vw;
+}
+
+
+
+#card1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20vw;
+  height: 20vw;
+}
+
+#card2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20vw;
+  height: 20vw;
+}
+
+/* Botones */
+.btn-blue {
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 13px 22px;
+  font-size: 1rem;
+}
 
 /* ------------------------------ Partners ------------------------------ */
 
-/* Your CSS code goes here */
+#partners {
+  display: flex;
+  justify-content: space-around;
+  margin: 115px 0;
+}
 
 /* ------------------------------ Recent projects ------------------------------ */
 
-/* Your CSS code goes here */
+#recent-projects article img {
+  width: 600px;
+}
 
 /* ------------------------------ Client reviews ------------------------------ */
-
-/* Your CSS code goes here */
 
 /* ------------------------------ Services ------------------------------ */
 

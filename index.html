@@ -12,7 +12,7 @@
     <!-- HEADER -->
     <!-- Parte 1 del header -->
     <header>
-      <div>
+      <div id="logo-navbar">
         <!-- Logo -->
         <figure>
           <img src="/resources/images/logos/circle.svg" alt="Logo Circle" />
@@ -23,25 +23,35 @@
             <li>Home</li>
             <li>Projects</li>
             <li>Services</li>
-            <li>Avout</li>
+            <li>About</li>
           </ul>
         </nav>
-        <div>Contact Us</div>
+        <div class="btn-blue">Contact Us</div>
       </div>
 
       <!-- Parte 2 del header -->
-      <div>
-        <div>
+      <main id="hero-section-header">
+        <div id="container-text-hero" >
           <h1>Empower Your Business With Stunning Design!</h1>
           <p>
             Circle is a digital design and development studio. We design and
             develop astonishing websites and mobile apps.
           </p>
-          <p>Get in touch</p>
-          <p>See our work</p>
+          <div id="hero-section-header-btns">
+            <p>See our work</p>
+            <div class="btn-blue">Get in touch</div>
+            
+          </div>
+          
         </div>
-        <div>Imagenes</div>
-      </div>
+
+          <div id="container-img-hero">            
+            <img id="card1" src="/resources/images/hero-section/card-1.png" alt="card1" />
+            <img id="card2" src="/resources/images/hero-section/card-2.png" alt="card2" />            
+          </div>
+
+        
+      </main>
     </header>
 
     <!-- SECTION 1 -->
@@ -70,33 +80,38 @@
     <!-- SECTION 2 -->
     <!-- Recent projects -->
     <section id="recent-projects">
-      <article>
-        <img
-          src="/resources/images/projects-section/1.jpg"
-          alt="imagen del proyecto 1"
-        />
-        <h4>Simplify</h4>
-        <p>UI Design & App Development</p>
-        <p>Learn more</p>
-      </article>
-      <article>
-        <img
-          src="/resources/images/projects-section/2.jpg"
-          alt="imagen del proyecto 2"
-        />
-        <h4>Dashcoin</h4>
-        <p>Web Development</p>
-        <p>Learn more</p>
-      </article>
-      <article>
-        <img
-          src="/resources/images/projects-section/3.jpg"
-          alt="imagen del proyecto 3"
-        />
-        <h4>Vectorify</h4>
-        <p>User Experience Design</p>
-        <p>Learn more</p>
-      </article>
+      <h3>Recent Projects</h3>
+      <div id="articles-projects">
+        <article>
+          <img
+            src="/resources/images/projects-section/1.jpg"
+            alt="imagen del proyecto 1"
+          />
+          <h4>Simplify</h4>
+          <p>UI Design & App Development</p>
+          <p>Learn more</p>
+        </article>
+        <article>
+          <img
+            src="/resources/images/projects-section/2.jpg"
+            alt="imagen del proyecto 2"
+          />
+          <h4>Dashcoin</h4>
+          <p>Web Development</p>
+          <p>Learn more</p>
+        </article>
+        <article>
+          <img
+            src="/resources/images/projects-section/3.jpg"
+            alt="imagen del proyecto 3"
+          />
+          <h4>Vectorify</h4>
+          <p>User Experience Design</p>
+          <p>Learn more</p>
+        </article>
+
+      </div>
+      
     </section>
 
     <!-- SECTION 3 -->
@@ -105,7 +120,7 @@
       <!-- Fondo azul oscuro -->
       <div id="back-images">
         <!-- Lo 4 emojis en deben posicionarse en cada punta -->
-      
+
         <img
           src="/resources/images/testimonial-section/memoji-1.png"
           alt="emoji 1"
@@ -123,12 +138,18 @@
 
       <div>
         <h3>Hear What Our Clients Have to Say</h3>
-        <p>“Circle helped us through every stage of our startup. We really enjoyed working with you.”</p>
+        <p>
+          “Circle helped us through every stage of our startup. We really
+          enjoyed working with you.”
+        </p>
         <!-- Datos del perfil -->
         <div>
           <!-- Circulo para la foto de perfil -->
           <!-- <img src="/resources/images/testimonial-section/orbit.png" alt="orbit"> -->
-          <img src="/resources/images/testimonial-section/profile.png" alt="foto de perfil">
+          <img
+            src="/resources/images/testimonial-section/profile.png"
+            alt="foto de perfil"
+          />
           <p>Kristin Watson</p>
           <p>Booking.com</p>
         </div>
@@ -139,25 +160,43 @@
     <!--  Services -->
     <section id="services">
       <article>
-        <img src="/resources/images/services-section/icons/1.svg" alt="icono de pluma">
+        <img
+          src="/resources/images/services-section/icons/1.svg"
+          alt="icono de pluma"
+        />
         <h5>User Interface Design</h5>
-        <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+        <p>
+          Circle provides you with a stunning user interface design that is
+          accessible to everyone.
+        </p>
         <p>Learn more</p>
       </article>
       <article>
-        <img src="/resources/images/services-section/icons/2.svg" alt="icono de puntero">
+        <img
+          src="/resources/images/services-section/icons/2.svg"
+          alt="icono de puntero"
+        />
         <h5>User Experience Design</h5>
-        <p>Circle always focuses on delivering the best user experience to your customers.</p>
+        <p>
+          Circle always focuses on delivering the best user experience to your
+          customers.
+        </p>
         <p>Learn more</p>
       </article>
       <article>
-        <img src="/resources/images/services-section/icons/3.svg" alt="icono de aplicacion">
+        <img
+          src="/resources/images/services-section/icons/3.svg"
+          alt="icono de aplicacion"
+        />
         <h5>Application Development</h5>
-        <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
+        <p>
+          We develop high-quality mobile and web applications using the latest
+          technology stack.
+        </p>
         <p>Learn more</p>
       </article>
-    </section>   
-    
+    </section>
+
     <!-- SECTION 5 -->
     <!-- Questions form -->
     <section id="questions-form">
@@ -165,8 +204,8 @@
       <p>Let us help you!</p>
       <form id="subscribe">
         <label for="email"></label>
-        <input type="email" placeholder="Enter your email" name="email">ç
-        <input type="button" value="Subscribe">
+        <input type="email" placeholder="Enter your email" name="email" />ç
+        <input type="button" value="Subscribe" />
       </form>
     </section>
 
@@ -174,8 +213,8 @@
     <footer>
       <!-- Logo y dirección -->
       <div>
-        <img src="/resources/images/logos/circle.svg" alt="Logo Circle">
-        <address>2972 Westheimer Rd. Santa Ana, Illinois 85486 </address>
+        <img src="/resources/images/logos/circle.svg" alt="Logo Circle" />
+        <address>2972 Westheimer Rd. Santa Ana, Illinois 85486</address>
       </div>
       <!-- Nav footer -->
       <nav>
@@ -189,6 +228,5 @@
         </ul>
       </nav>
     </footer>
-
   </body>
 </html>

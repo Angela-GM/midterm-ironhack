@@ -122,7 +122,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Crear html del archivo index.html
 - [x] Crear html del archivo project.html
 - [x] Crear html del archivo contact-us.html
-- [ ] Añadir variables de estilos en la sección root del archvio Style.CSS
+- [x] Añadir variables de estilos en la sección root del archvio Style.CSS
+- [ ] Crear el CSS para index.html
 
 #### Day Three
 
