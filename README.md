@@ -118,8 +118,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 ###### Martes 24, Enero 2023
 
 - [x] Estructurar Roadmap en el Readme
-- [ ] Estructurar el html (navbar, header, 5 sections: partners, recent-projects, client-reviews, services, question-form y el footer)
-- [ ] Crear html del archivo index.html
+- [x] Estructurar el html (navbar, header, 5 sections: partners, recent-projects, client-reviews, services, question-form y el footer)
+- [x] Crear html del archivo index.html
 - [ ] Crear html del archivo project.html
 - [ ] Crear html del archivo contact-us.html
 
