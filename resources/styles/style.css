@@ -1,18 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
 
 :root {
+  /* Colors */
   --primary: #072ac8;
+  --secondary: #FFC600;
+  --accent: #43D2FF;
+  --primary-hover:#A2D6F9;
+  --primary-tapped: #D1EDFF;
+  --neutral-dark: #292E47;
+  --neutral-medium: #6B708D;
+  --neutral-light: #F4F6FC;
+  --neutral-light-blue: #ECF7FF;
+
+
+
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   font-family: "Roboto", sans-serif;
 }
+
+
 
 
 

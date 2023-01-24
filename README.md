@@ -120,14 +120,14 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Estructurar Roadmap en el Readme
 - [x] Estructurar el html (navbar, header, 5 sections: partners, recent-projects, client-reviews, services, question-form y el footer)
 - [x] Crear html del archivo index.html
-- [ ] Crear html del archivo project.html
-- [ ] Crear html del archivo contact-us.html
+- [x] Crear html del archivo project.html
+- [x] Crear html del archivo contact-us.html
+- [ ] Añadir variables de estilos en la sección root del archvio Style.CSS
 
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
 
-- [ ] Crear CSS del archivo index.html
 - [ ] Crear CSS del archivo project.html
 - [ ] Crear CSS del archivo contact-us.html
 
@@ -167,7 +167,6 @@ Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.c
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 Presentation Link: [Insert here your presentation link](insert-link-here)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
