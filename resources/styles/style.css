@@ -32,27 +32,27 @@ body {
 
 h1 {
   font-size: 3.75rem;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 3.1rem;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 h4 {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 h5 {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: bold;
 }
 p {
   font-size: 1.25rem;
@@ -172,7 +172,7 @@ header nav a {
 }
 
 header nav a:hover {
-  color:var(--accent);
+  color: var(--accent);
 }
 
 /* Botones */
@@ -184,7 +184,6 @@ header nav a:hover {
 }
 .btn-blue a {
   color: white;
-  
 }
 
 /* ------------------------------ Partners ------------------------------ */
@@ -236,7 +235,6 @@ header nav a:hover {
 #recent-projects p {
   margin-bottom: 8px;
 }
-
 
 /* ------------------------------ Client reviews ------------------------------ */
 
@@ -329,9 +327,9 @@ header nav a:hover {
   /* max-width: 1200px; */
   width: 90%;
   height: 600px;
- margin: auto;
+  margin: auto;
   margin-top: 100px;
-  margin-bottom: 100px;  
+  margin-bottom: 100px;
 }
 
 #contain-services {
@@ -339,30 +337,30 @@ header nav a:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10%;
- 
+
   height: 100%;
   align-items: stretch;
-
 }
 
 #contain-services article {
   display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 30px;
-    background-color: white;
-    width: 300px;
-    margin: 100px 0;
-    /* border: #072ac8 solid 2px; */
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-color: white;
+  width: 300px;
+  margin: 100px 0;
+  /* border: #072ac8 solid 2px; */
 }
 
 #contain-services article h5 {
-  font-weight: 500; 
-
+  font-weight: 500;
 }
 
-.icon1, .icon2, .icon3 {
+.icon1,
+.icon2,
+.icon3 {
   border-radius: 50%;
   background-color: #ecf7ff;
   width: 80px;
@@ -372,15 +370,15 @@ header nav a:hover {
 }
 
 .icon1 {
-  background-image: url(/resources/images/services-section/icons/1.svg);  
+  background-image: url(/resources/images/services-section/icons/1.svg);
 }
 
 .icon2 {
-  background-image: url(/resources/images/services-section/icons/2.svg);  
+  background-image: url(/resources/images/services-section/icons/2.svg);
 }
 
 .icon3 {
-  background-image: url(/resources/images/services-section/icons/3.svg);  
+  background-image: url(/resources/images/services-section/icons/3.svg);
 }
 
 /* ------------------------------ Questions form ------------------------------ */
@@ -394,7 +392,8 @@ header nav a:hover {
   padding: 8rem 0;
 }
 
-#questions-form h3, form {
+#questions-form h3,
+form {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -407,34 +406,28 @@ footer {
   justify-content: space-around;
 }
 
-
-
-footer>div {
+footer > div {
   align-self: center;
 }
 
-footer>div img {
+footer > div img {
   margin-bottom: 16px;
 }
-footer>nav {
+footer > nav {
   padding: 3rem;
-
 }
 
-footer>nav ul {
+footer > nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
 }
 
-footer>nav ul li a {
+footer > nav ul li a {
   color: #072ac8;
   font-weight: 500;
-
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /* ------------------------------ PROJECT html ------------------------------ */
@@ -450,7 +443,57 @@ footer>nav ul li a {
 
 /* ------------------------------ Form ------------------------------ */
 
-/* Your CSS code goes here */
+form {
+  /* border: #bb2937 solid 2px; */
+}
+
+#contact-us h1 {
+  margin-bottom: 64px;
+
+}
+
+#contact-us input, textarea {
+  /* border: #52b12d solid 2px; */
+  padding: 16px 8px;
+  border: none;
+  background-color: hsla(231, 13%, 48%, 10%);
+}
+
+#contact-us label {
+  margin-bottom: 16px;
+  /* border: #072ac8 solid 2px; */
+}
+
+#contact-us textarea {
+  /* border: #36c4da solid 2px; */
+  width: 100%;
+}
+
+#contact-us>div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+}
+#email-and-phone {
+  display: flex;
+  justify-content: space-between;
+}
+#email-and-phone input {
+  width: 100%;
+}
+#email-and-phone div {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+}
+
+#contact-us div:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-us button {
+  width: 100%;
+}
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
@@ -491,6 +534,6 @@ footer>nav ul li a {
   bottom: 0;
 }
 
-#scroll-top>p>a{
-  color: white;   
-} 
+#scroll-top > p > a {
+  color: white;
+}

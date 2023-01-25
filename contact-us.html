@@ -1,74 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
     <!-- Style CSS -->
     <link rel="stylesheet" href="resources/styles/style.css" />
-</head>
-<body>
-    <!-- HEADER -->
-    <!-- Parte 1 del header -->
+  </head>
+  <body>
     <header>
-        <div>
-          <!-- Logo -->
-          <figure>
-            <img src="/resources/images/logos/circle.svg" alt="Logo Circle" />
-          </figure>
-          <!-- NavBar -->
-          <nav>
-            <ul>
-              <li>Home</li>
-              <li>Projects</li>
-              <li>Services</li>
-              <li>Avout</li>
-            </ul>
-          </nav>
-          <div>Contact Us</div>
-        </div>
-        
-
-        <!-- Form Concatc Us -->
-        <form id="contact-us">
-            <div>
-                <label for="name">Full Name *</label>
-                <input type="text" id="name" name="name" placeholder="Enter your full name">
-            </div>
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-                <label for="phone">Phone</label>
-                <input type="text" name="phone" id="phone" placeholder="Enter your phone">
-            </div>
-            <div>
-                <label for="message">Message *</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here..."></textarea>
-            </div>
-            <input type="submit" value="Submit">
-        </form>
-
-
-        <!-- FOOTER -->
-    <footer>
-        <!-- Logo y dirección -->
-        <div>
-          <img src="/resources/images/logos/circle.svg" alt="Logo Circle">
-          <address>2972 Westheimer Rd. Santa Ana, Illinois 85486 </address>
-        </div>
-        <!-- Nav footer -->
+      <div id="logo-navbar">
+        <!-- Logo -->
+        <figure>
+          <img src="/resources/images/logos/circle.svg" alt="Logo Circle" />
+        </figure>
+        <!-- NavBar -->
         <nav>
           <ul>
-            <li>Team</li>
-            <li>Services</li>
-            <li>About Us</li>
-            <li>Press</li>
-            <li>Projects</li>
-            <li>Privacy Policy</li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/index.html#recent-projects">Projects</a></li>
+            <li><a href="/index.html#services">Services</a></li>
+            <li><a href="#">About</a></li>
           </ul>
         </nav>
-      </footer>
-    
-</body>
+        <div class="btn-blue"><a href="/contact-us.html">Contact Us</a></div>
+      </div>
+    </header>
+
+    <!-- Form Concatc Us -->
+    <form id="contact-us">
+      <h1>Contact Us</h1>
+
+      <div>
+        <label for="name">Full Name *</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+        />
+      </div>
+
+      <div id="email-and-phone">
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+  
+        <div>
+          <label for="phone">Phone</label>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="Enter your phone"
+          />
+        </div>
+      </div>
+
+      <div>
+        <label for="message">Message *</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Write your message here..."
+        ></textarea>
+      </div>
+      <button class="btn-blue" type="submit">Submit</button>
+    </form>
+
+    <!-- FOOTER -->
+    <footer>
+      <!-- Logo y dirección -->
+      <div>
+        <img src="/resources/images/logos/circle.svg" alt="Logo Circle" />
+        <address>
+          2972 Westheimer Rd. Santa Ana,<br />
+          Illinois 85486
+        </address>
+      </div>
+      <!-- Nav footer -->
+      <nav>
+        <ul>
+          <li><a href="#">Team</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#">About Us</a></li>
+
+          <li><a href="#">Press</a></li>
+          <li><a href="#recent-projects">Projects</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
