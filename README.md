@@ -133,9 +133,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Extraer la información de la sección Recent Projects desde [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)
 - [x] Añadir enlaces al index.html
 - [x] Terminar el CSS de index.html
-- [ ] Terminar el CSS de index.html
+- [x] Crear CSS del archivo contact-us.html
 - [ ] Crear CSS del archivo project.html
-- [ ] Crear CSS del archivo contact-us.html
 
 #### Day Four
 
