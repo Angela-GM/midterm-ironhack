@@ -63,7 +63,14 @@ p {
   color: var(--primary);
   font-weight: 500;
   text-decoration: none;
+}
 
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
 }
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
@@ -86,6 +93,7 @@ p {
 header {
   display: flex;
   flex-direction: column;
+  margin-top: 3rem;
 }
 #logo-navbar {
   display: flex;
@@ -158,12 +166,25 @@ header {
   height: 20vw;
 }
 
+header nav a {
+  font-size: 1.2rem;
+  color: #6b708d;
+}
+
+header nav a:hover {
+  color:var(--accent);
+}
+
 /* Botones */
 .btn-blue {
   background-color: var(--primary);
   color: #ffffff;
   padding: 13px 22px;
   font-size: 1rem;
+}
+.btn-blue a {
+  color: white;
+  
 }
 
 /* ------------------------------ Partners ------------------------------ */
@@ -364,11 +385,56 @@ header {
 
 /* ------------------------------ Questions form ------------------------------ */
 
-/* Your CSS code goes here */
+#questions-form {
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+#questions-form h3, form {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
 /* ------------------------------ Footer ------------------------------ */
 
-/* Your CSS code goes here */
+footer {
+  display: flex;
+  padding: 3rem 4rem;
+  justify-content: space-around;
+}
+
+
+
+footer>div {
+  align-self: center;
+}
+
+footer>div img {
+  margin-bottom: 16px;
+}
+footer>nav {
+  padding: 3rem;
+
+}
+
+footer>nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+footer>nav ul li a {
+  color: #072ac8;
+  font-weight: 500;
+
+}
+
+
 
 /* -------------------------------------------------------------------------- */
 /* ------------------------------ PROJECT html ------------------------------ */
@@ -416,4 +482,15 @@ header {
 
 /* ------------------------------ Sticky scroll bar ------------------------------ */
 
-/* Your CSS code goes here */
+#scroll-top {
+  background-color: black;
+  color: white;
+  padding: 8px 0;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+}
+
+#scroll-top>p>a{
+  color: white;   
+} 

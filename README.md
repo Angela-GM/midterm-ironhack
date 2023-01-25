@@ -129,6 +129,10 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Miercoles 25, Enero 2023
 
+- [x] Corregir errores del CSS
+- [x] Extraer la información de la sección Recent Projects desde [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)
+- [x] Añadir enlaces al index.html
+- [x] Terminar el CSS de index.html
 - [ ] Terminar el CSS de index.html
 - [ ] Crear CSS del archivo project.html
 - [ ] Crear CSS del archivo contact-us.html

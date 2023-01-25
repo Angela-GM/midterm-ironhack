@@ -8,7 +8,7 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="resources/styles/style.css" />
   </head>
-  <body>
+  <body id="body">
     <!-- HEADER -->
     <!-- Parte 1 del header -->
     <header>
@@ -20,13 +20,13 @@
         <!-- NavBar -->
         <nav>
           <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Services</li>
-            <li>About</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#recent-projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#">About</a></li>
           </ul>
         </nav>
-        <div class="btn-blue">Contact Us</div>
+        <div class="btn-blue"><a href="/contact-us.html">Contact Us</a></div>
       </div>
 
       <!-- Parte 2 del header -->
@@ -39,7 +39,7 @@
           </p>
           <div id="hero-section-header-btns">
             <p>See our work</p>
-            <div class="btn-blue">Get in touch</div>
+            <div class="btn-blue"><a href="/contact-us.html">Get in touch</a></div>
           </div>
         </div>
 
@@ -94,7 +94,7 @@
           <div>
             <h4 class="title-js"></h4>
             <p class="body-js"></p>
-            <p class="learn-more">Learn more</p>
+            <p class="learn-more"><a href="/project.html">Learn more</a></p>
           </div>
         </article>
         <article>
@@ -102,19 +102,22 @@
             src="/resources/images/projects-section/2.jpg"
             alt="imagen del proyecto 2"
           />
-          <div><h4 class="title-js"></h4>
+          <div>
+            <h4 class="title-js"></h4>
             <p class="body-js"></p>
-            <p class="learn-more">Learn more</p></div>
-          
+            <p class="learn-more"><a href="/project.html">Learn more</a></p>
+          </div>
         </article>
         <article>
           <img
             src="/resources/images/projects-section/3.jpg"
             alt="imagen del proyecto 3"
           />
-          <div><h4 class="title-js"></h4>
+          <div>
+            <h4 class="title-js"></h4>
             <p class="body-js"></p>
-            <p class="learn-more">Learn more</p></div>
+            <p class="learn-more"><a href="/project.html">Learn more</a></p>
+          </div>
         </article>
       </div>
     </section>
@@ -131,7 +134,6 @@
 
         <!-- Datos del perfil -->
         <div id="client">
-
           <div id="client-image">
             <img
               src="/resources/images/testimonial-section/profile.png"
@@ -146,7 +148,7 @@
       </div>
       <!--  -->
       <!-- Lo 4 emojis en deben posicionarse en cada punta -->
-      
+
       <div class="emoji top-left">
         <img
           src="/resources/images/testimonial-section/memoji-1.png"
@@ -178,46 +180,46 @@
     <section id="services">
       <div><h3>Our Services</h3></div>
       <div id="contain-services">
-      <article>
-        <div class="icon1"></div>
-        <!-- <img
+        <article>
+          <div class="icon1"></div>
+          <!-- <img
           src="/resources/images/services-section/icons/1.svg"
           alt="icono de pluma"
         /> -->
-        <h5>User Interface Design</h5>
-        <p>
-          Circle provides you with a stunning user interface design that is
-          accessible to everyone.
-        </p>
-        <p class="learn-more">Learn more</p>
-      </article>
-      <article>
-        <div class="icon2"></div>
-        <!-- <img
+          <h5>User Interface Design</h5>
+          <p>
+            Circle provides you with a stunning user interface design that is
+            accessible to everyone.
+          </p>
+          <p class="learn-more">Learn more</p>
+        </article>
+        <article>
+          <div class="icon2"></div>
+          <!-- <img
           src="/resources/images/services-section/icons/2.svg"
           alt="icono de puntero"
         /> -->
-        <h5>User Experience Design</h5>
-        <p>
-          Circle always focuses on delivering the best user experience to your
-          customers.
-        </p>
-        <p class="learn-more">Learn more</p>
-      </article>
-      <article>
-        <div class="icon3"></div>
-        <!-- <img
+          <h5>User Experience Design</h5>
+          <p>
+            Circle always focuses on delivering the best user experience to your
+            customers.
+          </p>
+          <p class="learn-more">Learn more</p>
+        </article>
+        <article>
+          <div class="icon3"></div>
+          <!-- <img
           src="/resources/images/services-section/icons/3.svg"
           alt="icono de aplicacion"
         /> -->
-        <h5>Application Development</h5>
-        <p>
-          We develop high-quality mobile and web applications using the latest
-          technology stack.
-        </p>
-        <p class="learn-more">Learn more</p>
-      </article>
-    </div>
+          <h5>Application Development</h5>
+          <p>
+            We develop high-quality mobile and web applications using the latest
+            technology stack.
+          </p>
+          <p class="learn-more">Learn more</p>
+        </article>
+      </div>
     </section>
 
     <!-- SECTION 5 -->
@@ -227,8 +229,8 @@
       <p>Let us help you!</p>
       <form id="subscribe">
         <label for="email"></label>
-        <input type="email" placeholder="Enter your email" name="email" />ç
-        <input type="button" value="Subscribe" />
+        <input type="email" placeholder="Enter your email" name="email" />
+        <input class="btn-blue" type="button" value="Subscribe" />
       </form>
     </section>
 
@@ -237,20 +239,26 @@
       <!-- Logo y dirección -->
       <div>
         <img src="/resources/images/logos/circle.svg" alt="Logo Circle" />
-        <address>2972 Westheimer Rd. Santa Ana, Illinois 85486</address>
+        <address>
+          2972 Westheimer Rd. Santa Ana,<br />
+          Illinois 85486
+        </address>
       </div>
       <!-- Nav footer -->
       <nav>
         <ul>
-          <li>Team</li>
-          <li>Services</li>
-          <li>About Us</li>
-          <li>Press</li>
-          <li>Projects</li>
-          <li>Privacy Policy</li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#">About Us</a></li>
+
+          <li><a href="#">Press</a></li>
+          <li><a href="#recent-projects">Projects</a></li>
+          <li><a href="#">Privacy Policy</a></li>
         </ul>
       </nav>
     </footer>
+
+    <div id="scroll-top"><p><a href="#body">Scroll to top ↑</a></p></div>
     <script src="/resources/js/index.js"></script>
   </body>
 </html>
