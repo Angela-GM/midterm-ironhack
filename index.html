@@ -39,7 +39,9 @@
           </p>
           <div id="hero-section-header-btns">
             <p>See our work</p>
-            <div class="btn-blue"><a href="/contact-us.html">Get in touch</a></div>
+            <div class="btn-blue">
+              <a href="/contact-us.html">Get in touch</a>
+            </div>
           </div>
         </div>
 
@@ -229,8 +231,16 @@
       <p>Let us help you!</p>
       <form id="subscribe">
         <label for="email"></label>
-        <input type="email" placeholder="Enter your email" name="email" />
-        <input class="btn-blue" type="button" value="Subscribe" />
+        <div id="container-email-sub">
+          <div id="icon-email"></div>
+          <input type="email" placeholder="Enter your email" name="email" />
+          <input
+            id="btn-sub"
+            class="btn-blue"
+            type="button"
+            value="Subscribe"
+          />
+        </div>
       </form>
     </section>
 
@@ -258,7 +268,9 @@
       </nav>
     </footer>
 
-    <div id="scroll-top"><p><a href="#body">Scroll to top ↑</a></p></div>
+    <div id="scroll-top">
+      <p><a href="#body">Scroll to top ↑</a></p>
+    </div>
     <script src="/resources/js/index.js"></script>
   </body>
 </html>

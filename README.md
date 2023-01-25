@@ -134,13 +134,14 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Añadir enlaces al index.html
 - [x] Terminar el CSS de index.html
 - [x] Crear CSS del archivo contact-us.html
-- [ ] Crear CSS del archivo project.html
+- [x] Crear CSS del archivo project.html
+- [x] Extraer la información para project.html desde [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)
 
 #### Day Four
 
 ###### Jueves 26, Enero 2023
 
-- [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
+- [ ] Gestionar el envío del formulario Contact Us y hacer una post request a jsonplaceholder.
 
 #### Day Five
 

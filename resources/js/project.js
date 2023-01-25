@@ -24,9 +24,11 @@ getExternalApi();
 
 //info proyecto página
 
-let tituloProject = document.querySelectorAll(".title-project"); //seleccionar donde va el titulo en el dom
+let tituloProject = document.querySelectorAll("#title-project"); //seleccionar donde va el titulo en el dom
 
-let bodyProject = document.querySelectorAll("#body-project"); // seleccionar donde va el body del project
+let subTituloProject = document.querySelectorAll("#sub-title-project"); //seleccionar donde va el subtitulo en el dom
+
+let bodyProject = document.querySelectorAll("#body-project p"); // seleccionar donde va el body del project
 
 let getExternalApiProject = () => {
   fetch("https://jsonplaceholder.typicode.com/posts/1")
@@ -34,6 +36,7 @@ let getExternalApiProject = () => {
     .then((respuestas) => {
       console.table(respuestas);
       tituloProject[0].innerHTML = respuestas.title;
+      subTituloProject[0].innerHTML = respuestas.title;
       bodyProject[0].innerHTML = respuestas.body;
     })
     .catch((error) => console.log(error));
