@@ -64,6 +64,10 @@ p {
   font-weight: 500;
   text-decoration: none;
 }
+.learn-more a {
+  color: var(--primary);
+
+}
 
 a {
   text-decoration: none;
@@ -154,16 +158,16 @@ header {
 
 #card1 {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0%;
+  left: 0%;
   width: 20vw;
   height: 20vw;
 }
 
 #card2 {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: -10%;
+  right: -20%;
   width: 20vw;
   height: 20vw;
 }
@@ -201,10 +205,10 @@ header nav a:hover {
 /* ------------------------------ Recent projects ------------------------------ */
 
 #recent-projects {
-  display: flex;
-  flex-direction: column;
   width: 70%;
+  min-height: 600px;
   margin: auto;
+  margin-top: 100px;
 }
 
 #recent-projects article img {
@@ -214,10 +218,10 @@ header nav a:hover {
 }
 
 #recent-projects article {
-  width: 30%;
+  width: 300px;
   background-color: white;
-  margin-bottom: 150px;
-  height: 100%;
+  margin-bottom: 64px;
+  /* height: 100%; */
 }
 
 #recent-projects article div {
@@ -228,14 +232,14 @@ header nav a:hover {
 
 #articles-projects {
   display: flex;
-  justify-content: space-between;
-  height: 600px;
-  /* gap: 5px; */
   flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  align-items: stretch;
 }
 
 #recent-projects > h3 {
-  margin: 70px 0;
+  margin: 64px 0;
 }
 
 #recent-projects h4 {
@@ -245,6 +249,8 @@ header nav a:hover {
 #recent-projects p {
   margin-bottom: 8px;
 }
+
+
 
 /* ------------------------------ Client reviews ------------------------------ */
 
@@ -337,12 +343,15 @@ header nav a:hover {
 /* ------------------------------ Services ------------------------------ */
 
 #services {
-  /* max-width: 1200px; */
   width: 70%;
-  height: 600px;
+  min-height: 600px;
   margin: auto;
   margin-top: 100px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
+}
+
+#services h3 {
+  margin-bottom: 64px;
 }
 
 #contain-services {
@@ -361,12 +370,17 @@ header nav a:hover {
   padding: 30px;
   background-color: white;
   width: 300px;
-  margin: 100px 0;
+  margin: 16px 0;
   /* border: #072ac8 solid 2px; */
 }
 
 #contain-services article h5 {
   font-weight: 500;
+  margin-bottom: 16px;
+}
+
+#contain-services article p:first-of-type {
+  margin-bottom: 32px;
 }
 
 .icon1,
@@ -378,6 +392,7 @@ header nav a:hover {
   height: 80px;
   background-repeat: no-repeat;
   background-position: center center;
+  margin-bottom: 16px;
 }
 
 .icon1 {
@@ -540,6 +555,7 @@ main div {
 #email-and-phone div {
   display: flex;
   flex-direction: column;
+  width: 49%;
   margin: 16px 0;
 }
 

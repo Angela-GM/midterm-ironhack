@@ -142,6 +142,9 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 ###### Jueves 26, Enero 2023
 
 - [ ] Gestionar el envío del formulario Contact Us y hacer una post request a jsonplaceholder.
+- [ ] Hacer el menu hamburguesa para movil.
+- [ ] Configurar media queries para que sea responsive con pantala movil.
+- [ ] Crer animación: slider de fotos de las section partners.
 
 #### Day Five
 
@@ -168,7 +171,7 @@ En esta sección se puede incluir información como:
 
 En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Angela Garcia Muñoz - [@your_twitter](https://twitter.com/your_username) - angelagm0112@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
