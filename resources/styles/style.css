@@ -32,22 +32,22 @@ body {
 
 h1 {
   font-size: 3.75rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 3.1rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 h3 {
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 h4 {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 h5 {
@@ -59,8 +59,12 @@ p {
   font-weight: 400;
 }
 
+.learn-more {
+  color: var(--primary);
+  font-weight: 500;
+  text-decoration: none;
 
-
+}
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
 /* ------------------------------------------------------------------------ */
@@ -115,10 +119,9 @@ header {
   align-items: flex-start;
 }
 
-#hero-section-header div>p {
+#hero-section-header div > p {
   color: var(--neutral-medium);
   line-height: 1.8rem;
-
 }
 
 #hero-section-header-btns {
@@ -126,10 +129,7 @@ header {
   gap: 20px;
   align-items: center;
   margin: 35px 0;
-
 }
-
-
 
 /* Imagen con las tarjetas */
 #container-img-hero {
@@ -141,8 +141,6 @@ header {
   width: 50vw;
   height: 50vw;
 }
-
-
 
 #card1 {
   position: absolute;
@@ -180,23 +178,23 @@ header {
 
 #recent-projects article img {
   width: 100%;
-  height: 90%;
+  height: 200px;
 }
 
-#recent-projects article{
+#recent-projects article {
   width: 30%;
   background-color: white;
   margin-bottom: 150px;
-
+  height: 400px;
 }
 
-
-
+#recent-projects article div {
+  padding: 1.5rem;
+}
 
 #recent-projects {
   display: flex;
   flex-direction: column;
-
 }
 
 #articles-projects {
@@ -206,11 +204,18 @@ header {
   flex-wrap: wrap;
 }
 
-
-
-#recent-projects>h3 {
-  margin: 70px 0;;
+#recent-projects > h3 {
+  margin: 70px 0;
 }
+
+#recent-projects h4 {
+  margin-bottom: 16px;
+}
+
+#recent-projects p {
+  margin-bottom: 8px;
+}
+
 
 /* ------------------------------ Client reviews ------------------------------ */
 
@@ -246,6 +251,8 @@ header {
   right: 0;
   left: auto;
   bottom: auto;
+  display: flex;
+  justify-content: end;
 }
 
 .bottom-left {
@@ -259,33 +266,33 @@ header {
   right: 0;
   top: auto;
   left: auto;
-  
+  display: flex;
+  justify-content: end;
 }
 
-#container-reviews-text{
+#container-reviews-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-
+  height: 100%;
+  text-align: center;
 }
-#container-reviews-text>h3{
+#container-reviews-text > h3 {
   color: white;
   align-items: center;
   justify-content: center;
 }
-#container-reviews-text>p {
+#container-reviews-text > p {
   color: var(--secondary);
 }
 
 #client {
-
   display: flex;
-  justify-content:center;
-
+  justify-content: center;
 }
 
-#client-image img{
+#client-image img {
   width: 50px%;
   height: 50px;
   border-radius: 50%;
@@ -295,20 +302,65 @@ header {
   margin-left: 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------ Services ------------------------------ */
 
-/* Your CSS code goes here */
+#services {
+  /* max-width: 1200px; */
+  width: 90%;
+  height: 600px;
+ margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;  
+}
+
+#contain-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10%;
+ 
+  height: 100%;
+  align-items: stretch;
+
+}
+
+#contain-services article {
+  display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: white;
+    width: 300px;
+    margin: 100px 0;
+    /* border: #072ac8 solid 2px; */
+}
+
+#contain-services article h5 {
+  font-weight: 500; 
+
+}
+
+.icon1, .icon2, .icon3 {
+  border-radius: 50%;
+  background-color: #ecf7ff;
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.icon1 {
+  background-image: url(/resources/images/services-section/icons/1.svg);  
+}
+
+.icon2 {
+  background-image: url(/resources/images/services-section/icons/2.svg);  
+}
+
+.icon3 {
+  background-image: url(/resources/images/services-section/icons/3.svg);  
+}
 
 /* ------------------------------ Questions form ------------------------------ */
 
