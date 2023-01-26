@@ -150,7 +150,7 @@ header {
   background-image: url("/resources/images/hero-section/hero-image.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 40vw;
+  background-size: contain;
   position: relative;
   width: 50vw;
   height: 50vw;
@@ -440,16 +440,25 @@ form {
 
 
 #container-email-sub {
-  display: flex;
+  position: relative;
+}
+
+#container-email-sub input:nth-of-type(1) {
+  padding: 18px 0px 18px 55px;
+  margin-bottom: 12px;
 }
 #icon-email {
-  height: 60px;
-  width: 60px;
-  background-color: white;
+  position: absolute;
+  height: 30px;
+  width: 35px;
   background-image: url(/resources/images/newsletter/icon/mail.svg);
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 5px;
+  margin-top: 11px;
 }
+
+
 
 /* ------------------------------ Footer ------------------------------ */
 
@@ -588,6 +597,7 @@ main div {
   background-color: #292e47;
 }
 
+
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
 /* ----------------------------------------------------------------------------- */
@@ -606,7 +616,7 @@ main div {
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
 
 @media (max-width: 766px) {
-  /* Your CSS code goes here */
+/* Menu hamburger */
 #display-btn {
     display: none;
   }
@@ -645,7 +655,150 @@ main div {
     left: 0;
   }
 
+/* Tamaño de fuentes */
+h1 {
+  font-size: 2.5rem;
 }
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-size: 300;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 1.6rem;
+}
+p {
+  font-size: 1rem;
+}
+/* main y header */
+header {
+  width: 100%;
+
+}
+
+#card1, #card2 {
+  display: none;
+}
+
+#hero-section-header {
+  flex-direction: column;
+  align-items: center;
+}
+
+#container-text-hero {
+  width: 90%;
+  align-items: center;
+  text-align: center;
+}
+
+#container-img-hero {
+  height: 100vw;
+  width: 100vw;
+  margin-bottom: 88px;
+}
+
+main {
+  width: 100%;
+}
+
+/* Partners */
+#partners {
+  flex-wrap: wrap;
+  gap: 50px;
+  margin:auto;
+  justify-content: space-between;
+}
+/* #partners figure:nth-last-of-type(1) {
+  display: none;
+} */
+
+/* Recent projects */
+#recent-projects>h3 {
+  text-align: center;
+}
+#articles-projects {
+  justify-content: center;
+}
+#recent-projects{
+  width: 80%;
+}
+
+#recent-projects article {
+  width: 100%;
+}
+
+/* Comtaomer Reviews */
+.emoji {
+  display: none;
+}
+
+#container-reviews {
+  width: 100%;
+  height: 500px;
+}
+
+#container-reviews-text > p {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+#container-reviews-text{
+  padding: 5rem;
+  justify-content: space-between;
+}
+
+/* Services */
+#services {
+  width: 90%;
+  margin-top: 50px;
+}
+
+#services div:first-child {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#contain-services {
+  justify-content: center;
+}
+
+#contain-services article {
+  width: 100%;
+}
+
+/* Question forms */
+#questions-form {
+  width: 100%;
+}
+
+#container-email-sub {
+  flex-direction: column;
+}
+
+#subscribe {
+  width: 60%;
+}
+
+#subscribe input {
+  margin-bottom: 16px;
+}
+
+
+
+}
+
+
+
+
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
 

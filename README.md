@@ -141,8 +141,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Jueves 26, Enero 2023
 
-- [ ] Gestionar el envío del formulario Contact Us y hacer una post request a jsonplaceholder.
-- [ ] Hacer el menu hamburguesa para movil.
+- [x]Gestionar el envío del formulario Contact Us y hacer una post request a jsonplaceholder.
+- [x] Hacer el menu hamburguesa para movil.
 - [ ] Configurar media queries para que sea responsive con pantalla movil.
 - [ ] Crer animación: slider de fotos de las section partners.
 
