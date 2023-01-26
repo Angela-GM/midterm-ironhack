@@ -195,12 +195,49 @@ header nav a:hover {
 /* ------------------------------ Partners ------------------------------ */
 
 #partners {
-  display: flex;
-  justify-content: space-around;
+  display:none;
   margin-top: 100px;
   width: 80%;
   margin: 100px auto 0 auto;
 }
+/* slider */
+.slider {
+  width: 75vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 64px;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0) ; }
+  
+  100% { transform: translateX(calc(-200px * 15)); }
+}
+
+
+.slider .slide-track {
+  display: flex;
+  animation: scroll 35s linear infinite;
+  width: calc(200px * 30);
+  -webkit-animation: scroll 40s linear infinite;
+
+}
+
+
+.slider .slide {
+  width: 200px;
+}
+
+.slider .slide img {
+  width: 100%;
+  padding: 0 30px;
+}
+
+
+
+
+
 
 /* ------------------------------ Recent projects ------------------------------ */
 
@@ -329,7 +366,7 @@ header nav a:hover {
 }
 
 #client-image img {
-  width: 50px%;
+  width: 50px;
   height: 50px;
   border-radius: 50%;
 }
@@ -734,14 +771,18 @@ textarea {
 
   /* Partners */
   #partners {
+    display: block;
+    display: flex;
     flex-wrap: wrap;
     gap: 50px;
     margin: auto;
     justify-content: space-between;
   }
-  /* #partners figure:nth-last-of-type(1) {
-  display: none;
-} */
+
+  .slider {
+    display: none;
+  }
+
 
   /* Recent projects */
   #recent-projects > h3 {
