@@ -2,7 +2,7 @@
 
 console.log("Hola Mundo");
 
-// Ejelo 003 - llamando una external PUBLIC API - jsonplaceholder
+// llamando una external PUBLIC API - jsonplaceholder
 
 let titleHtmlCard = document.querySelectorAll(".title-js"); //array apuntando a los 3 titulos en html
 let bodyHtmlCard = document.querySelectorAll(".body-js"); // array apuntado a los al donde va el contenido de las 3 tarjetas
@@ -22,3 +22,21 @@ let getExternalApi = () => {
 };
 
 getExternalApi();
+
+// Menu hamburger
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-link").forEach(
+  (n) => n.addEventListener("click"),
+  () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  }
+);

@@ -154,6 +154,7 @@ header {
   position: relative;
   width: 50vw;
   height: 50vw;
+  z-index: -1;
 }
 
 #card1 {
@@ -437,6 +438,7 @@ form {
   padding: 50px;
 }
 
+
 #container-email-sub {
   display: flex;
 }
@@ -568,6 +570,24 @@ main div {
   width: 100%;
 }
 
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0-3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #292e47;
+}
+
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
 /* ----------------------------------------------------------------------------- */
@@ -584,13 +604,51 @@ main div {
 }
 
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
+
 @media (max-width: 766px) {
   /* Your CSS code goes here */
+#display-btn {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    z-index: 1;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background-color: #292e47;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
 }
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
 
-/* Your CSS code goes here */
 
 /* ------------------------------ Alert ------------------------------ */
 
