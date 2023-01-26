@@ -141,17 +141,22 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Jueves 26, Enero 2023
 
-- [x]Gestionar el envío del formulario Contact Us y hacer una post request a jsonplaceholder.
+- [x] Gestionar el envío del formulario Contact Us y hacer una post request a jsonplaceholder.
 - [x] Hacer el menu hamburguesa para movil.
-- [ ] Configurar media queries para que sea responsive con pantalla movil.
-- [ ] Crer animación: slider de fotos de las section partners.
+- [x] Configurar media queries para que sea responsive con pantalla movil. (Media Queries).
+- [x] Crer animación: slider de fotos de las section partners.
+- [x] Arreglar pequeños detalles en el CSS.
+- [x] Crear menú hamburguesa para pantalla movil.
+- [x] Implementar un scroll to top suave en el index.html
 
 #### Day Five
 
 ###### Viernes 27, Enero 2023
 
+- [ ] Contact Us: enseñar al usuario con dom manipulation un mensaje de éxito o de error.
 - [ ] Revisión final del proyecto
-- [ ] Crear presentación
+- [ ] Redactar el archivo Readme
+- [ ] Crear presentación en diapositivas
 - [ ] Presentar el proyecto
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
