@@ -561,17 +561,7 @@ main figure img:nth-of-type(2){
   transform: translate(0px, 0px);
   transition: opacity 200ms ease;
   object-fit: cover;
-
 }
-
-
-
-
-
-
-
-
-
 
 main div {
   display: flex;
@@ -811,8 +801,16 @@ header {
   margin-top: 100px;
 }
 #articles-projects {
-  flex-wrap: nowrap;
-  gap: 16px;
+  flex-wrap: wrap;
+}
+
+#container-subtitle {
+  flex-direction: column;
+  gap: 8px;
+}
+
+main img {
+  height: 500px;
 }
 
 /* Services */
@@ -829,6 +827,29 @@ header {
 #contact-us {
   width: 95%;
 }
+
+#contact-us input, #message {
+  /* border: #072ac8 solid 2px; */
+  padding: 25px 23px;
+  font-size: 1.1rem;
+  border: 1px none #000;
+  margin-bottom: 10px;
+}
+
+#contact-us label {
+  font-size: 1.1rem;
+}
+
+/* Projects */
+main {
+  width: 90%;
+}
+
+#title-project {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
 
 
 
