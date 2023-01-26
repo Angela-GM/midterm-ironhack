@@ -825,6 +825,11 @@ header {
   gap: 16px;
 }
 
+/* Contact Us */
+#contact-us {
+  width: 95%;
+}
+
 
 
 }

@@ -143,10 +143,10 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [x] Gestionar el envío del formulario Contact Us y hacer una post request a jsonplaceholder.
 - [x] Hacer el menu hamburguesa para movil.
-- [x] Configurar media queries para que sea responsive con pantalla movil. (Media Queries).
+- [x] Configurar media queries para que sea responsive con pantalla movil y tablet (Media Queries).
 - [x] Crer animación: slider de fotos de las section partners.
 - [x] Arreglar pequeños detalles en el CSS.
-- [x] Crear menú hamburguesa para pantalla movil.
+- [x] Crear menú hamburguesa para pantalla movil y tablet
 - [x] Implementar un scroll to top suave en el index.html
 
 #### Day Five
