@@ -234,6 +234,7 @@ header nav a:hover {
   justify-content: space-between;
   height: 100%;
   align-items: stretch;
+  max-width: 100%;
 }
 
 #recent-projects > h3 {
@@ -246,6 +247,7 @@ header nav a:hover {
 
 #recent-projects p {
   margin-bottom: 8px;
+  margin-bottom: 26px;
 }
 
 /* ------------------------------ Client reviews ------------------------------ */
@@ -498,7 +500,7 @@ main {
 
 main img {
   width: 100%;
-  height: 500px;
+  height: 600px;
   object-fit: cover;
   margin: 64px 0;
 }
@@ -520,7 +522,11 @@ main figure img:nth-of-type(2){
   transition: opacity 200ms ease;
   object-fit: cover;
 
-  }
+}
+
+
+
+
 
 
 
@@ -544,7 +550,7 @@ main div {
 
 #contact-us {
   /* border: #bb2937 solid 2px; */
-  width: 78%;
+  width: 60%;
   margin: auto;
 }
 
@@ -555,7 +561,7 @@ main div {
 #contact-us input,
 textarea {
   /* border: #52b12d solid 2px; */
-  padding: 16px 8px;
+  padding: 27px 23px;
   border: none;
   background-color: hsla(231, 13%, 48%, 10%);
 }
@@ -858,6 +864,31 @@ textarea {
     font-size: 1.2rem;
     line-height: 1.5rem;
   }
+
+  /* contact-us.html */
+  #email-and-phone {
+    flex-direction: column;
+  }
+  #email-and-phone div {
+    width: 100%;
+  }
+  #contact-us {
+    width: 92%;
+  }
+
+  #contact-us input, #message {
+    /* border: #072ac8 solid 2px; */
+    padding: 27px 23px;
+    font-size: 1.2rem;
+    border: 1px none #000;
+    margin-bottom: 10px;
+  }
+
+  #contact-us label {
+    font-size: 1.2rem;
+  }
+
+
 
 
   
