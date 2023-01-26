@@ -66,7 +66,6 @@ p {
 }
 .learn-more a {
   color: var(--primary);
-
 }
 
 a {
@@ -198,9 +197,9 @@ header nav a:hover {
 #partners {
   display: flex;
   justify-content: space-around;
-  margin: 115px 0;
+  margin-top: 100px;
   width: 80%;
-  margin: auto;
+  margin: 100px auto 0 auto;
 }
 
 /* ------------------------------ Recent projects ------------------------------ */
@@ -229,8 +228,6 @@ header nav a:hover {
   padding: 1.5rem;
 }
 
-
-
 #articles-projects {
   display: flex;
   flex-wrap: wrap;
@@ -250,8 +247,6 @@ header nav a:hover {
 #recent-projects p {
   margin-bottom: 8px;
 }
-
-
 
 /* ------------------------------ Client reviews ------------------------------ */
 
@@ -438,7 +433,6 @@ form {
   padding: 50px;
 }
 
-
 #container-email-sub {
   position: relative;
 }
@@ -457,8 +451,6 @@ form {
   margin-left: 5px;
   margin-top: 11px;
 }
-
-
 
 /* ------------------------------ Footer ------------------------------ */
 
@@ -481,9 +473,11 @@ footer > nav {
 
 footer > nav ul {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
+
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 footer > nav ul li a {
@@ -506,7 +500,7 @@ main img {
   width: 100%;
   height: 600px;
   object-fit: cover;
-  margin: 64px 0;;
+  margin: 64px 0;
 }
 
 main div {
@@ -532,10 +526,10 @@ main div {
 
 #contact-us h1 {
   margin-bottom: 64px;
-
 }
 
-#contact-us input, textarea {
+#contact-us input,
+textarea {
   /* border: #52b12d solid 2px; */
   padding: 16px 8px;
   border: none;
@@ -552,9 +546,9 @@ main div {
   width: 100%;
 }
 
-#contact-us>div:nth-of-type(1) {
-    display: flex;
-    flex-direction: column;
+#contact-us > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
 }
 #email-and-phone {
   display: flex;
@@ -579,15 +573,12 @@ main div {
   width: 100%;
 }
 
-
 .hamburger {
   display: none;
   cursor: pointer;
 }
 
-
-
-.bar{
+.bar {
   display: block;
   width: 25px;
   height: 3px;
@@ -596,7 +587,6 @@ main div {
   transition: all 0.3s ease-in-out;
   background-color: #292e47;
 }
-
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
@@ -616,8 +606,8 @@ main div {
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
 
 @media (max-width: 766px) {
-/* Menu hamburger */
-#display-btn {
+  /* Menu hamburger */
+  #display-btn {
     display: none;
   }
 
@@ -626,17 +616,17 @@ main div {
     z-index: 1;
   }
 
-  .hamburger.active .bar:nth-child(2){
+  .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
-  .hamburger.active .bar:nth-child(1){
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-  .hamburger.active .bar:nth-child(3){
+  .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .nav-menu{
+  .nav-menu {
     position: fixed;
     left: -100%;
     top: 70px;
@@ -655,153 +645,170 @@ main div {
     left: 0;
   }
 
-/* Tamaño de fuentes */
-h1 {
-  font-size: 2.5rem;
-}
+  /* Tamaño de fuentes */
+  h1 {
+    font-size: 2.5rem;
+  }
 
-h2 {
-  font-size: 2.5rem;
-}
+  h2 {
+    font-size: 2.5rem;
+  }
 
-h3 {
-  font-size: 2.5rem;
-  font-size: 300;
-}
+  h3 {
+    font-size: 2.5rem;
+    font-size: 300;
+  }
 
-h4 {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
 
-h5 {
-  font-size: 1.6rem;
-}
-p {
-  font-size: 1rem;
-}
-/* main y header */
-header {
-  width: 100%;
+  h5 {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  /* main y header */
+  header {
+    width: 100%;
+  }
 
-}
+  #card1,
+  #card2 {
+    display: none;
+  }
 
-#card1, #card2 {
-  display: none;
-}
+  #hero-section-header {
+    flex-direction: column;
+    align-items: center;
+  }
 
-#hero-section-header {
-  flex-direction: column;
-  align-items: center;
-}
+  #container-text-hero {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+  }
 
-#container-text-hero {
-  width: 90%;
-  align-items: center;
-  text-align: center;
-}
+  #container-img-hero {
+    height: 100vw;
+    width: 100vw;
+    margin-bottom: 88px;
+  }
 
-#container-img-hero {
-  height: 100vw;
-  width: 100vw;
-  margin-bottom: 88px;
-}
+  main {
+    width: 100%;
+  }
 
-main {
-  width: 100%;
-}
-
-/* Partners */
-#partners {
-  flex-wrap: wrap;
-  gap: 50px;
-  margin:auto;
-  justify-content: space-between;
-}
-/* #partners figure:nth-last-of-type(1) {
+  /* Partners */
+  #partners {
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: auto;
+    justify-content: space-between;
+  }
+  /* #partners figure:nth-last-of-type(1) {
   display: none;
 } */
 
-/* Recent projects */
-#recent-projects>h3 {
-  text-align: center;
+  /* Recent projects */
+  #recent-projects > h3 {
+    text-align: center;
+  }
+  #articles-projects {
+    justify-content: center;
+  }
+  #recent-projects {
+    width: 80%;
+  }
+
+  #recent-projects article {
+    width: 100%;
+  }
+
+  /* Comtaomer Reviews */
+  .emoji {
+    display: none;
+  }
+
+  #container-reviews {
+    width: 100%;
+    height: 500px;
+  }
+
+  #container-reviews-text > p {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  #container-reviews-text {
+    padding: 5rem;
+    justify-content: space-between;
+  }
+
+  /* Services */
+  #services {
+    width: 90%;
+    margin-top: 50px;
+  }
+
+  #services div:first-child {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  #contain-services {
+    justify-content: center;
+  }
+
+  #contain-services article {
+    width: 100%;
+  }
+
+  /* Question forms */
+  #questions-form {
+    width: 100%;
+  }
+
+  #container-email-sub {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #subscribe {
+    width: 50%;
+  }
+
+  #subscribe input {
+    margin-bottom: 16px;
+    padding: 15px 0;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+  }
+
+  footer div:nth-child(1) {
+    /* border: #072ac8 2px solid; */
+    text-align: center;
+  }
+
+  footer nav ul {
+    /* border: #072ac8 2px solid; */
+    padding: 0;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  footer > div > img {
+    width: 50%;
+  }
 }
-#articles-projects {
-  justify-content: center;
-}
-#recent-projects{
-  width: 80%;
-}
-
-#recent-projects article {
-  width: 100%;
-}
-
-/* Comtaomer Reviews */
-.emoji {
-  display: none;
-}
-
-#container-reviews {
-  width: 100%;
-  height: 500px;
-}
-
-#container-reviews-text > p {
-  font-size: 1.6rem;
-  font-weight: 500;
-}
-#container-reviews-text{
-  padding: 5rem;
-  justify-content: space-between;
-}
-
-/* Services */
-#services {
-  width: 90%;
-  margin-top: 50px;
-}
-
-#services div:first-child {
-  text-align: center;
-  margin-bottom: 16px;
-}
-
-#contain-services {
-  justify-content: center;
-}
-
-#contain-services article {
-  width: 100%;
-}
-
-/* Question forms */
-#questions-form {
-  width: 100%;
-}
-
-#container-email-sub {
-  flex-direction: column;
-}
-
-#subscribe {
-  width: 60%;
-}
-
-#subscribe input {
-  margin-bottom: 16px;
-}
-
-
-
-}
-
-
-
-
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
-
 
 /* ------------------------------ Alert ------------------------------ */
 
