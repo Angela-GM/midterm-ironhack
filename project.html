@@ -14,20 +14,33 @@
     <header>
       <div id="logo-navbar">
         <!-- Logo -->
-        <figure><a href="/index.html"><img src="/resources/images/logos/circle.svg" alt="Logo Circle" /></a>
-          
+        <figure>
+          <img src="/resources/images/logos/circle.svg" alt="Logo Circle" />
         </figure>
         <!-- NavBar -->
-        <nav>
-          <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/index.html#recent-projects">Projects</a></li>
-            <li><a href="/index.html#services">Services</a></li>
-            <li><a href="#">About</a></li>
+        <nav class="navbar">
+          <ul class="nav-menu">
+            <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#recent-projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#services">Services</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
           </ul>
+
+          
         </nav>
-        <div class="btn-blue"><a href="/contact-us.html">Contact Us</a></div>
+        <div class="btn-blue" id="display-btn"><a href="/contact-us.html">Contact Us</a></div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </div>
+
     </header>
 
     <main>
@@ -42,6 +55,10 @@
           src="/resources/images/projects-section/1.jpg"
           alt="Imagen proyecto 1"
         />
+        <img
+          src="/resources/images/projects-section/1.jpg"
+          alt="Imagen proyecto 1"
+        />
       </figure>
     </main>
 
@@ -50,11 +67,11 @@
     <!-- SECTION 2 -->
     <!-- Recent projects -->
     <section id="recent-projects">
-      <h3>Recent Projects</h3>
+      <h3>Other Projects</h3>
       <div id="articles-projects">
         <article>
           <img
-            src="/resources/images/projects-section/1.jpg"
+            src="/resources/images/projects-section/4.jpg"
             alt="imagen del proyecto 1"
           />
           <div>
@@ -65,7 +82,7 @@
         </article>
         <article>
           <img
-            src="/resources/images/projects-section/2.jpg"
+            src="/resources/images/projects-section/5.jpg"
             alt="imagen del proyecto 2"
           />
           <div>
@@ -76,7 +93,7 @@
         </article>
         <article>
           <img
-            src="/resources/images/projects-section/3.jpg"
+            src="/resources/images/projects-section/6.jpg"
             alt="imagen del proyecto 3"
           />
           <div>
@@ -94,8 +111,16 @@
       <p>Let us help you!</p>
       <form id="subscribe">
         <label for="email"></label>
-        <input type="email" placeholder="Enter your email" name="email" />
-        <input type="button" value="Subscribe" />
+        <div id="container-email-sub">
+          <div id="icon-email"></div>
+          <input type="email" placeholder="Enter your email" name="email" />
+          <input
+            id="btn-sub"
+            class="btn-blue"
+            type="button"
+            value="Subscribe"
+          />
+        </div>
       </form>
     </section>
 

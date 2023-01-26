@@ -178,7 +178,7 @@ header nav a {
 }
 
 header nav a:hover {
-  color: var(--accent);
+  color: var(--primary);
 }
 
 /* Botones */
@@ -220,7 +220,7 @@ header nav a:hover {
 #recent-projects article {
   width: 300px;
   background-color: white;
-  margin-bottom: 64px;
+  margin-bottom: 50px;
   /* height: 100%; */
 }
 
@@ -262,7 +262,7 @@ header nav a:hover {
   align-items: center;
   z-index: -5;
   height: 650px;
-  width: 80%;
+  /* width: 80%; */
   margin: auto;
   margin-top: 40px;
 }
@@ -412,7 +412,7 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
   padding: 8rem 0;
-  width: 80%;
+  /* width: 80%; */
   margin: auto;
   margin-top: 64px;
 }
@@ -498,10 +498,34 @@ main {
 
 main img {
   width: 100%;
-  height: 600px;
+  height: 500px;
   object-fit: cover;
   margin: 64px 0;
 }
+
+/* Efecto imagen main */
+
+main figure {
+  position: relative;
+}
+
+
+main figure img:nth-of-type(2){
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: -1;
+  filter: saturate(200%) blur(40px);
+  transform: translate(0px, 0px);
+  transition: opacity 200ms ease;
+  object-fit: cover;
+
+  }
+
+
+
+
+
 
 main div {
   display: flex;
@@ -631,7 +655,8 @@ textarea {
     left: -100%;
     top: 70px;
     flex-direction: column;
-    background-color: #292e47;
+    background-color: hsla(0, 0%, 78%);
+    ;
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -727,7 +752,7 @@ textarea {
     width: 100%;
   }
 
-  /* Comtaomer Reviews */
+  /* Comtainer Reviews */
   .emoji {
     display: none;
   }
@@ -806,6 +831,41 @@ textarea {
   footer > div > img {
     width: 50%;
   }
+
+  /* project.html */
+  /* main */
+  main {
+    width: 90%;
+  }
+
+  main>h1 {
+    margin: 16px 0 24px 0;
+  }
+
+  main>div {
+    flex-direction: column;
+  }
+
+  main>div h4 {
+    margin-bottom: 8px;
+  }
+
+  main figure img {
+    height: 400px;
+  }
+
+  #body-project>p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+
+  
+
+
+
+
+
 }
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
