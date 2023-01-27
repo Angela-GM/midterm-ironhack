@@ -168,7 +168,7 @@ En este proyecto, se utilizaron las tecnologías mencionadas anteriormente para 
 
 ## Acerca
 
-La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
+<!-- La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
 
 En esta sección se puede incluir información como:
 
@@ -177,7 +177,7 @@ En esta sección se puede incluir información como:
 - Enlaces a perfiles en redes sociales o sitios web personales.
 - Otra información relevante que el desarrollador o equipo desee compartir.
 
-En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
+En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto. -->
 
 Angela Garcia Muñoz - [LinkedIn](https://www.linkedin.com/in/angelagarciam82/)
 
