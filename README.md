@@ -68,15 +68,23 @@ La sección "sobre el proyecto" en un archivo README es una sección importante 
 
 En esta sección se puede incluir información como:
 
-- Una descripción breve del proyecto y su propósito
-- Tecnologías utilizadas
-- Funcionalidades principales
-- Instrucciones de instalación y configuración
-- Enlaces a documentación adicional o recursos relacionados con el proyecto
-- Licencia del proyecto
-- Contribuciones de las personas en el proyecto.
+- Una descripción breve del proyecto y su propósito: El proyecto consiste en replicar una página web que se nos proporciona. Tenemos dos opciones disponibles, una versión básica y una versión avanzada. El objetivo del proyecto es poner en práctica los conocimientos adquiridos en las clases de CSS3, HTML5 y JavaScript.
+- Tecnologías utilizadas: En este proyecto se utilizaron las siguientes tecnologías: HTML5, CSS3 y JavaScript.
+- Funcionalidades principales: El proyecto tiene como funcionalidad principal replicar una página web existente, a elegir entre su versión básica o avanzada.
+- Instrucciones de instalación y configuración: No es necesario
+- Enlaces a documentación adicional o recursos relacionados con el proyecto:
 
-En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
+[Versión básica] (https://circle-agency-35d27e.webflow.io/)
+
+[Versión avanzada] (https://midterm-project.vercel.app/)
+
+[Archivo Figma] (https://drive.google.com/drive/folders/1s48zMkVPVFViY2Go1H6_4prQ3sAS--FV)
+
+[{JSON} Placeholder (API)] (https://jsonplaceholder.typicode.com/)
+
+[Vercel] (https://vercel.com/)
+
+- Licencia del proyecto
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
