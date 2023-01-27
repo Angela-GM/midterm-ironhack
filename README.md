@@ -64,11 +64,7 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Una descripción breve del proyecto y su propósito: El proyecto consiste en replicar una página web que se nos proporciona. Tenemos dos opciones disponibles, una versión básica y una versión avanzada. El objetivo del proyecto es poner en práctica los conocimientos adquiridos en las clases de CSS3, HTML5 y JavaScript.
+- El proyecto consiste en replicar una página web que se nos proporciona. Tenemos dos opciones disponibles, una versión básica y una versión avanzada. El objetivo del proyecto es poner en práctica los conocimientos adquiridos en las clases de CSS3, HTML5 y JavaScript.
 - Tecnologías utilizadas: En este proyecto se utilizaron las siguientes tecnologías: HTML5, CSS3 y JavaScript.
 - Funcionalidades principales: El proyecto tiene como funcionalidad principal replicar una página web existente, a elegir entre su versión básica o avanzada.
 - Instrucciones de instalación y configuración: No es necesario
@@ -90,17 +86,15 @@ En esta sección se puede incluir información como:
 
 ### Construido Con
 
-La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
+- HTML5
+- CSS3
+- JavaScript
+- [JSON Placeholder API](https://jsonplaceholder.typicode.com/)
+- [Vercel](https://vercel.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
 
-En esta sección se puede incluir información como:
-
-- Lenguajes de programación utilizados
-- Frameworks y bibliotecas utilizadas
-- Herramientas de desarrollo (IDE, control de versiones, etc)
-- Servicios en la nube utilizados (si corresponde)
-- Otros recursos o tecnologías relacionadas con el proyecto.
-
-En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva.
+En este proyecto, se utilizaron las tecnologías mencionadas anteriormente para desarrollar la versión básica de una página web añadiendo algunas funcionalidades de la versión avanzada. {JSON} Placeholder se utilizó como una API de datos de ejemplo, Vercel se utilizó para el despliegue la web y Git se utilizó para el control de versiones del proyecto. También se utilizó Visual Studio Code como el entorno de desarrollo integrado (IDE) para escribir y editar el código.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,16 +207,9 @@ En resumen, la sección "agradecimientos" es una excelente manera de agradecer a
 
 ## Desafío Técnico
 
-La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
+Este proyecto fue un desafío técnico en el cual enfrenté problemas para conectar mi carpeta local del proyecto con el repositorio de GitHub. Después de investigar y recibir ayuda, pude solucionar el problema al seguir los pasos correctamente.
 
-En esta sección se puede incluir información como:
-
-- Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto.
-- Soluciones implementadas para superar estos desafíos.
-- Aspectos del proyecto que aún son un desafío o que requieren mejora continua.
-- Recomendaciones para futuros desarrolladores que trabajen en el proyecto.
-
-En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
+Además, esta experiencia me permitió adquirir habilidades para conectar carpetas locales con repositorios en proyectos futuros.
 
 ## Grande Error
 
