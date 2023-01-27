@@ -159,7 +159,7 @@ En este proyecto, se utilizaron las tecnologías mencionadas anteriormente para 
 - [ ] Arreglar el menu hamburguesa
 - [ ] Revisión final del proyecto
 - [x] Redactar el archivo Readme
-- [ ] Crear presentación en diapositivas
+- [x] Crear presentación en diapositivas
 - [ ] Presentar el proyecto
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
