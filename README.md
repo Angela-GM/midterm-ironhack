@@ -100,10 +100,10 @@ En este proyecto, se utilizaron las tecnologías mencionadas anteriormente para 
 
 ## Roadmap
 
-#### Backlog
+<!-- #### Backlog
 
 - [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
-- [x] Ej - Crear section "projects" en html
+- [x] Ej - Crear section "projects" en html -->
 
 #### Day One
 
@@ -156,8 +156,9 @@ En este proyecto, se utilizaron las tecnologías mencionadas anteriormente para 
 ###### Viernes 27, Enero 2023
 
 - [ ] Contact Us: enseñar al usuario con dom manipulation un mensaje de éxito o de error.
+- [ ] Arreglar el menu hamburguesa
 - [ ] Revisión final del proyecto
-- [ ] Redactar el archivo Readme
+- [x] Redactar el archivo Readme
 - [ ] Crear presentación en diapositivas
 - [ ] Presentar el proyecto
 
@@ -178,9 +179,13 @@ En esta sección se puede incluir información como:
 
 En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
 
-Angela Garcia Muñoz - [@your_twitter](https://twitter.com/your_username) - angelagm0112@gmail.com
+Angela Garcia Muñoz - [LinkedIn](https://www.linkedin.com/in/angelagarciam82/)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Correo electrónico: [angelagm0112@gmail.com](mailto:angelagm0112@gmail.com)
+
+Project Link: [GitHub Project](https://github.com/Angela-GM/midterm-ironhack)
+
+Web del proyecto: [Vercel](https://midterm-ironhack-red.vercel.app/)
 
 Presentation Link: [Insert here your presentation link](insert-link-here)
 
@@ -190,17 +195,12 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 ## agradecimientos
 
-La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
+Quiero dar las gracias a Aleix, Diego y Jarko, los 3 profesores que nos han ido guiando y ayudando para poder terminar el proyecto.
 
-En esta sección se puede incluir información como:
+A los compañeros de clase porque siempre están dispuestos a ayudar.
 
-- Agradecimientos específicos a personas que ayudaron en el desarrollo del proyecto.
-- Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos.
-- Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
+Y al SOC, ya que gracias a ellos he podido permitirme cursar el bootcamp en IronHack.
 
-En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
-
-- [Icon Libraries](insert-link-here)
 - [Google Font Libraries](insert-link-here)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -213,13 +213,10 @@ Además, esta experiencia me permitió adquirir habilidades para conectar carpet
 
 ## Grande Error
 
-La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
+Los errores mas grandes que he tenido ha sido a la hora de dar formato con CSS a las tarjetas de las secciones de Services y Projects, ya que no he conseguido del todo que queden bien. He usado Flex pero no he conseguido controlarlo del todo.
 
-En esta sección se puede incluir información como:
+Este error me ha hecho perder mucho tiempo, en general el CSS me ha llevado más tiempo de lo esperado.
 
-- Descripción detallada del error cometido.
-- Consecuencias del error.
-- Soluciones implementadas para corregir el error.
-- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro.
+También he tenido problemas a la hora de plasmar los datos desde una API a la web. Para mi ha sido todo un reto JavaScript, porque aunque tenga la teoría me cuesta todavía poder implementarlo.
 
-En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
+Debo profundizar más en JavaScript para que en futuros proyectos no tenga estos problemas o me encuentre de nuevo con este tipo de bloqueos.
