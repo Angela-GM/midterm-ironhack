@@ -74,15 +74,15 @@ En esta sección se puede incluir información como:
 - Instrucciones de instalación y configuración: No es necesario
 - Enlaces a documentación adicional o recursos relacionados con el proyecto:
 
-[Versión básica] (https://circle-agency-35d27e.webflow.io/)
+- [Versión básica](https://circle-agency-35d27e.webflow.io/)
 
-[Versión avanzada] (https://midterm-project.vercel.app/)
+- [Versión avanzada](https://midterm-project.vercel.app/)
 
-[Archivo Figma] (https://drive.google.com/drive/folders/1s48zMkVPVFViY2Go1H6_4prQ3sAS--FV)
+- [Archivo Figma](https://drive.google.com/drive/folders/1s48zMkVPVFViY2Go1H6_4prQ3sAS--FV)
 
-[{JSON} Placeholder (API)] (https://jsonplaceholder.typicode.com/)
+- [{JSON} Placeholder (API)](https://jsonplaceholder.typicode.com/)
 
-[Vercel] (https://vercel.com/)
+- [Vercel](https://vercel.com/)
 
 - Licencia del proyecto
 
